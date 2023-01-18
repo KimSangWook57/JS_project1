@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center; /* 수평 */
+    align-items: center;     /* 수직 */
+}
+
+main {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;  /* 아래로 배치 */
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 3vh;
+    max-width: 200px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    padding: 20px 80px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;        
+}
+
+button:hover , button:active{
+    background-color: green;
+    color: white;
+}
