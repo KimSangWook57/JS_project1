@@ -21,7 +21,7 @@ const showDice = () => {
     n = Math.floor(Math.random() * 6 + 1);
     const s1 = document.querySelector("#s1");
     show("none", "block", "none", "none", "block")
-    s1.innerHTML = `<img src="./images/${n}.png" />`
+    s1.innerHTML = `<img src="ex01/images/${n}.png" />`
     console.log(n);
 }
 
@@ -50,8 +50,8 @@ const showOk = () => {
 
     document.querySelector("form").reset();
 
-    document.querySelector("#s1").innerHTML = `<img src="./images/${n}.png" />`
-    document.querySelector("#s3").innerHTML = `<img src="./images/${tag}.png" />`
+    document.querySelector("#s1").innerHTML = `<img src="ex01/images/${n}.png" />`
+    document.querySelector("#s3").innerHTML = `<img src="ex01/images/${tag}.png" />`
     show("block", "none", "block", "block", "none")
 }
 
