@@ -56,7 +56,6 @@ form {
     align-items: center;
 }
 
-
 /* 레이블에 체크가 되면 색깔을 바꾼다. */
 input:checked + label {
     color: red;
