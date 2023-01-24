@@ -69,14 +69,14 @@ input[type="radio"] {
 input[type="radio"] + label {
     display: inline-block;
     padding: 8px 10px;
-    border: 1px solid #dfdfdf;
+    border: 1px solid #867777;
     background-color: #ffffff;
     text-align: center;
     cursor: pointer;
 }
 
 input[type="radio"]:checked + label { 
-    background-color: #113a6b;
+    background-color: #184985;
     color: #ffffff;
 } 
 

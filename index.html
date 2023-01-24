@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>응용문제-교수님예제1</title>
+    <title>응용문제-주사위게임</title>
     <link rel="stylesheet" href="ex01/styles/index.css">
     <script src="ex01/scripts/index.js"></script>
 </head>
 <body>
     <header>
-        <h1>주사위</h1>
+        <h1>주사위게임</h1>
     </header>
     <main id=content>
         <section>
@@ -21,8 +21,9 @@
         <section id="s2">
             <form name="form1" id="form1">
                 <fieldset>
-                    <legend>번호선택</legend>
-                        <input type="radio" name="num" id="num1" value="1"><label for="num1"> 1 </label>
+                    <legend>번호선택</legend> 
+                    <!-- 아무것도 선택하지 않았다면 1번으로 자동으로 체크되게 설정했다. -->
+                        <input type="radio" name="num" id="num1" value="1" checked><label for="num1"> 1 </label>
                         <input type="radio" name="num" id="num2" value="2"><label for="num2"> 2 </label>
                         <input type="radio" name="num" id="num3" value="3"><label for="num3"> 3 </label>
                         <input type="radio" name="num" id="num4" value="4"><label for="num4"> 4 </label>
